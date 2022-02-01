@@ -15,6 +15,7 @@ public class TestHarness {
 		//System.out.println(game.equals(gameOther));
 		
 		System.out.println(gameOther.scoringOptionsString());
+		System.out.println(gameOther.score()[0]+ " " + gameOther.score()[1]);
 
 		
 	}
