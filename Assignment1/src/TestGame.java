@@ -133,6 +133,11 @@ public class TestGame {
 			System.out.println("Test 13 Failed");
 		}
 		
+		// Test 14 - getScoreOptions
+		
+		game1 = new Yahtzee(new Dice[] {new Dice(3), new Dice(3), new Dice(3), new Dice(3), new Dice(2)});
+			System.out.println(game1.scoringOptionsString());
+		
 	}
 	
 	public static String showArray (int[] arr) {
@@ -144,5 +149,8 @@ public class TestGame {
 		s += "]";
 		return s;
 	}
+	
+
+	
 
 }
